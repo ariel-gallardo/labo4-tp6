@@ -7,6 +7,7 @@ export const NavBar: React.FC = () => {
         <Link to="/home">HOME</Link>
         <Link to="/donde">DONDE ESTAMOS</Link>
         <Link to="/">PRODUCTOS</Link >
+        <Link to="/cargar">CARGAR</Link>
     </div>
 
 }

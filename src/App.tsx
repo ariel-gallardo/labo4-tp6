@@ -9,6 +9,7 @@ import {Detalle} from './componentes/detalle';
 import {NavBar} from './componentes/navbar'
 import {Home} from './componentes/home';
 import {Donde} from './componentes/donde';
+import {FormCarga} from './componentes/carga';
 
 import {createBrowserHistory} from 'history';
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/detalle/:id" component={Detalle} />
         <Route path="/donde" component={Donde} />
         <Route path="/home" component={Home} />
+        <Route path="/cargar" component={FormCarga} />
         </Switch>
     </Router>
   );
